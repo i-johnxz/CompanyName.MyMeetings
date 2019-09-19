@@ -7,11 +7,16 @@ namespace CompanyName.MyMeetings.Modules.UserAccess.Infrastructure.Outbox
 {
     public class OutboxAccessor : IOutbox
     {
-        private readonly 
+        private readonly UserAccessContext _userAccessContext;
+
+        public OutboxAccessor(UserAccessContext userAccessContext)
+        {
+            _userAccessContext = userAccessContext;
+        }
 
         public void Add(OutboxMessage message)
         {
-            throw new NotImplementedException();
+            _userAccessContext.OutboxMessages.Add(message);
         }
     }
 }
