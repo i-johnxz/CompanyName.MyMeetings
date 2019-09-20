@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.Infrastructure\CompanyName.MyMeetings.BuildingBlocks.Infrastructure.csproj" />
-    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.UserAccess.Domain\CompanyName.MyMeetings.Modules.UserAccess.Domain.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Administration.Domain\CompanyName.MyMeetings.Modules.Administration.Domain.csproj" />
   </ItemGroup>
 
 </Project>
