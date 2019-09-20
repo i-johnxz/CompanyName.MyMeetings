@@ -28,6 +28,7 @@
     <ProjectReference Include="..\..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.Infrastructure\CompanyName.MyMeetings.BuildingBlocks.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Meetings\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj" />
     <ProjectReference Include="..\CompanyName.MyMeetings.Modules.UserAccess.Infrastructure\CompanyName.MyMeetings.Modules.UserAccess.Infrastructure.csproj" />
+    <ProjectReference Include="..\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj" />
   </ItemGroup>
 
 </Project>
