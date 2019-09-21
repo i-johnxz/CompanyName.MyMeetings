@@ -39,6 +39,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyName.MyMeetings.Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Administration.Application", "Modules\Administration\CompanyName.MyMeetings.Modules.Administration.Application\CompanyName.MyMeetings.Modules.Administration.Application.csproj", "{913E60F2-D735-450B-84A3-6B4AF75F199B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = " Payments", " Payments", "{094FB086-83FB-4F5A-A4D0-854C498F2BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Payments.Domain", "Modules\Payments\CompanyName.MyMeetings.Modules.Payments.Domain\CompanyName.MyMeetings.Modules.Payments.Domain.csproj", "{28276BCA-B58B-4DAE-AC38-A44A615A99EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Payments.IntegrationEvents", "Modules\Payments\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents.csproj", "{48DAB069-A85D-4721-AB2F-A7B1F95F7CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Payments.Infrastructure", "Modules\Payments\CompanyName.MyMeetings.Modules.Payments.Infrastructure\CompanyName.MyMeetings.Modules.Payments.Infrastructure.csproj", "{B45AA822-B897-4528-8748-EC348FB0E5E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +105,18 @@ Global
 		{913E60F2-D735-450B-84A3-6B4AF75F199B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913E60F2-D735-450B-84A3-6B4AF75F199B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913E60F2-D735-450B-84A3-6B4AF75F199B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28276BCA-B58B-4DAE-AC38-A44A615A99EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28276BCA-B58B-4DAE-AC38-A44A615A99EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28276BCA-B58B-4DAE-AC38-A44A615A99EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28276BCA-B58B-4DAE-AC38-A44A615A99EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DAB069-A85D-4721-AB2F-A7B1F95F7CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DAB069-A85D-4721-AB2F-A7B1F95F7CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DAB069-A85D-4721-AB2F-A7B1F95F7CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DAB069-A85D-4721-AB2F-A7B1F95F7CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45AA822-B897-4528-8748-EC348FB0E5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45AA822-B897-4528-8748-EC348FB0E5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45AA822-B897-4528-8748-EC348FB0E5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45AA822-B897-4528-8748-EC348FB0E5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +138,10 @@ Global
 		{1FABCA33-F1AD-44BE-8867-144D224A3948} = {325A7B18-10A3-4028-92C6-97E5E0532BB3}
 		{9D5FCE03-2709-4F4F-A585-A80450775CD2} = {325A7B18-10A3-4028-92C6-97E5E0532BB3}
 		{913E60F2-D735-450B-84A3-6B4AF75F199B} = {325A7B18-10A3-4028-92C6-97E5E0532BB3}
+		{094FB086-83FB-4F5A-A4D0-854C498F2BCF} = {F700125B-8166-48F8-A77E-8E91334CE92F}
+		{28276BCA-B58B-4DAE-AC38-A44A615A99EE} = {094FB086-83FB-4F5A-A4D0-854C498F2BCF}
+		{48DAB069-A85D-4721-AB2F-A7B1F95F7CEC} = {094FB086-83FB-4F5A-A4D0-854C498F2BCF}
+		{B45AA822-B897-4528-8748-EC348FB0E5E3} = {094FB086-83FB-4F5A-A4D0-854C498F2BCF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A133C59E-22FF-4EFB-9043-2B3A9596792B}

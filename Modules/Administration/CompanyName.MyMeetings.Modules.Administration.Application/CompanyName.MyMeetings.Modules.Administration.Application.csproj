@@ -22,6 +22,7 @@
     <ProjectReference Include="..\..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.Application\CompanyName.MyMeetings.BuildingBlocks.Application.csproj" />
     <ProjectReference Include="..\..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.EventBus\CompanyName.MyMeetings.BuildingBlocks.EventBus.csproj" />
     <ProjectReference Include="..\..\Meetings\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\..\UserAccess\CompanyName.MyMeetings.Modules.UserAccess.Infrastructure\CompanyName.MyMeetings.Modules.UserAccess.Infrastructure.csproj" />
     <ProjectReference Include="..\..\UserAccess\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj" />
     <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Administration.Domain\CompanyName.MyMeetings.Modules.Administration.Domain.csproj" />
     <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Administration.Infrastructure\CompanyName.MyMeetings.Modules.Administration.Infrastructure.csproj" />
