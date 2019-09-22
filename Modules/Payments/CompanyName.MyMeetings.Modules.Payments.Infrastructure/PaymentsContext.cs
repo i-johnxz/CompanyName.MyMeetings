@@ -3,6 +3,11 @@ using CompanyName.MyMeetings.BuildingBlocks.Infrastructure.Outbox;
 using CompanyName.MyMeetings.Modules.Payments.Domain.MeetingGroupPaymentRegisters;
 using CompanyName.MyMeetings.Modules.Payments.Domain.MeetingPayments;
 using CompanyName.MyMeetings.Modules.Payments.Domain.Payers;
+using CompanyName.MyMeetings.Modules.Payments.Infrastructure.InternalCommands;
+using CompanyName.MyMeetings.Modules.Payments.Infrastructure.MeetingGroupPaymentRegisters;
+using CompanyName.MyMeetings.Modules.Payments.Infrastructure.MeetingPayments;
+using CompanyName.MyMeetings.Modules.Payments.Infrastructure.Outbox;
+using CompanyName.MyMeetings.Modules.Payments.Infrastructure.Payers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -29,7 +34,11 @@ namespace CompanyName.MyMeetings.Modules.Payments.Infrastructure
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.ApplyConfiguration(new OutboxMessageEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new InternalCommandEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new MeetingGroupPaymentRegisterEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new PayerEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new MeetingPaymentEntityTypeConfiguration());
         }
     }
 }

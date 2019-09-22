@@ -14,8 +14,4 @@
       <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Payments.Domain\CompanyName.MyMeetings.Modules.Payments.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Outbox" />
-    </ItemGroup>
-
 </Project>

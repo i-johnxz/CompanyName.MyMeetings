@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\johnxiong\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\johnxiong\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CompanyName.MyMeetings.1008475509.00" t="ExcludeRecursive" />
+    <e p="F:\Demo\dotnet\CompanyName.MyMeetings\CompanyName.MyMeetings" t="IncludeFlat">
+      <e p="BuildingBlocks" t="Include">
+        <e p="CompanyName.MyMeetings.BuildingBlocks.Application" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.BuildingBlocks.Application.csproj" t="IncludeRecursive" />
+          <e p="IExecutionContextAccessor.cs" t="Include" />
+          <e p="InvalidCommandException.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="CompanyName.MyMeetings.BuildingBlocks.Application.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="CompanyName.MyMeetings.BuildingBlocks.Domain" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="BusinessRuleValidationException.cs" t="Include" />
+          <e p="CompanyName.MyMeetings.BuildingBlocks.Domain.csproj" t="IncludeRecursive" />
+          <e p="DomainEventBase.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
+          <e p="IAggregateRoot.cs" t="Include" />
+          <e p="IBusinessRule.cs" t="Include" />
+          <e p="IDomainEvent.cs" t="Include" />
+          <e p="IgnoreMemberAttribute.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="CompanyName.MyMeetings.BuildingBlocks.Domain.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="TypedIdValueBase.cs" t="Include" />
+          <e p="ValueObject.cs" t="Include" />
+        </e>
+        <e p="CompanyName.MyMeetings.BuildingBlocks.EventBus" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.BuildingBlocks.EventBus.csproj" t="IncludeRecursive" />
+          <e p="InMemoryEventBus.cs" t="Include" />
+          <e p="InMemoryEventBusClient.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="CompanyName.MyMeetings.BuildingBlocks.EventBus.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="CompanyName.MyMeetings.BuildingBlocks.Infrastructure" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.BuildingBlocks.Infrastructure.csproj" t="IncludeRecursive" />
+          <e p="DomainEventsDispatching" t="Include">
+            <e p="DomainEventsAccessor.cs" t="Include" />
+            <e p="DomainEventsDispatcher.cs" t="Include" />
+            <e p="DomainEventsDispatcherNotificationHandlerDecorator.cs" t="Include" />
+            <e p="IDomainEventsAccessor.cs" t="Include" />
+            <e p="IDomainEventsDispatcher.cs" t="Include" />
+            <e p="UnitOfWorkCommandHandlerDecorator.cs" t="Include" />
+          </e>
+          <e p="Emails" t="Include">
+            <e p="EmailMessage.cs" t="Include" />
+            <e p="EmailsConfiguration.cs" t="Include" />
+            <e p="EmailSender.cs" t="Include" />
+            <e p="IEmailSender.cs" t="Include" />
+          </e>
+          <e p="EventBus" t="Include">
+            <e p="IEventsBus.cs" t="Include" />
+            <e p="IIntegrationEventHandler.cs" t="Include" />
+            <e p="IntegrationEvent.cs" t="Include" />
+          </e>
+          <e p="Inbox" t="Include">
+            <e p="InboxMessage.cs" t="Include" />
+          </e>
+          <e p="InternalCommands" t="Include">
+            <e p="ICommandsDispatcher.cs" t="Include" />
+            <e p="InternalCommand.cs" t="Include" />
+          </e>
+          <e p="ISqlConnectionFactory.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="CompanyName.MyMeetings.BuildingBlocks.Infrastructure.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Outbox" t="Include">
+            <e p="IOutbox.cs" t="Include" />
+            <e p="OutboxMessage.cs" t="Include" />
+          </e>
+          <e p="SeedWork" t="Include">
+            <e p="DomainNotificationBase.cs" t="Include" />
+            <e p="IDomainEventNotification.cs" t="Include" />
+          </e>
+          <e p="SqlConnectionFactory.cs" t="Include" />
+          <e p="StronglyTypedIdValueConverterSelector.cs" t="Include" />
+          <e p="TypedIdValueConverter.cs" t="Include" />
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
+      </e>
+      <e p="CompanyName.MyMeetings.sln" t="IncludeFlat" />
+      <e p="Modules" t="Include">
+        <e p=" Payments" t="Include" />
+        <e p="Administration" t="Include">
+          <e p="CompanyName.MyMeetings.Modules.Administration.Application" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Administration.Application.csproj" t="IncludeRecursive" />
+            <e p="Configuration" t="Include">
+              <e p="AdministrationCompositionRoot.cs" t="Include" />
+              <e p="AdministrationStartup.cs" t="Include" />
+              <e p="AllConstructorFinder.cs" t="Include" />
+              <e p="Authentication" t="Include">
+                <e p="AuthenticationModule.cs" t="Include" />
+              </e>
+              <e p="DataAccess" t="Include">
+                <e p="DataAccessModule.cs" t="Include" />
+              </e>
+              <e p="EventsBus" t="Include">
+                <e p="EventsBusModule.cs" t="Include" />
+                <e p="EventsBusStartup.cs" t="Include" />
+                <e p="IntegrationEventGenericHandler.cs" t="Include" />
+              </e>
+              <e p="Logging" t="Include">
+                <e p="LoggingModule.cs" t="Include" />
+              </e>
+              <e p="Mediation" t="Include">
+                <e p="MediatorModule.cs" t="Include" />
+              </e>
+              <e p="Processing" t="Include">
+                <e p="CommandsExecutor.cs" t="Include" />
+                <e p="ICommandHandler.cs" t="Include" />
+                <e p="Inbox" t="Include">
+                  <e p="InboxMessageDto.cs" t="Include" />
+                  <e p="ProcessInboxCommand.cs" t="Include" />
+                  <e p="ProcessInboxCommandHandler.cs" t="Include" />
+                  <e p="ProcessInboxJob.cs" t="Include" />
+                </e>
+                <e p="InternalCommands" t="Include">
+                  <e p="CommandsScheduler.cs" t="Include" />
+                  <e p="ICommandsScheduler.cs" t="Include" />
+                  <e p="InternalCommandBase.cs" t="Include" />
+                  <e p="ProcessInternalCommandsCommand.cs" t="Include" />
+                  <e p="ProcessInternalCommandsCommandHandler.cs" t="Include" />
+                  <e p="ProcessInternalCommandsJob.cs" t="Include" />
+                </e>
+                <e p="IRecurringCommand.cs" t="Include" />
+                <e p="LoggingCommandHandlerDecorator.cs" t="Include" />
+                <e p="Outbox" t="Include">
+                  <e p="OutboxMessageDto.cs" t="Include" />
+                  <e p="OutboxModule.cs" t="Include" />
+                  <e p="ProcessOutboxCommand.cs" t="Include" />
+                  <e p="ProcessOutboxCommandHandler.cs" t="Include" />
+                  <e p="ProcessOutboxJob.cs" t="Include" />
+                </e>
+                <e p="ProcessingModule.cs" t="Include" />
+                <e p="QueryExecutor.cs" t="Include" />
+                <e p="UnitOfWorkCommandHandlerDecorator.cs" t="Include" />
+                <e p="ValidationCommandHandlerDecorator.cs" t="Include" />
+              </e>
+              <e p="Quartz" t="Include">
+                <e p="QuartzModule.cs" t="Include" />
+                <e p="QuartzStartup.cs" t="Include" />
+                <e p="SerilogLogProvider.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Contracts" t="Include">
+              <e p="AdministrationModule.cs" t="Include" />
+              <e p="CommandBase.cs" t="Include" />
+              <e p="IAdministrationModule.cs" t="Include" />
+              <e p="ICommand.cs" t="Include" />
+              <e p="IQuery.cs" t="Include" />
+            </e>
+            <e p="MeetingGroupProposals" t="Include">
+              <e p="AcceptMeetingGroupProposal" t="Include">
+                <e p="AcceptMeetingGroupProposalCommand.cs" t="Include" />
+                <e p="AcceptMeetingGroupProposalCommandHandler.cs" t="Include" />
+                <e p="MeetingGroupProposalAcceptedNotification.cs" t="Include" />
+                <e p="MeetingGroupProposalAcceptedNotificationHandler.cs" t="Include" />
+              </e>
+              <e p="MeetingGroupProposedIntegrationEventHandler.cs" t="Include" />
+              <e p="RequestMeetingGroupProposalVerification" t="Include">
+                <e p="RequestMeetingGroupProposalVerificationCommand.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Members" t="Include">
+              <e p="CreateMemberCommand.cs" t="Include" />
+              <e p="CreateMemberCommandHandler.cs" t="Include" />
+              <e p="NewUserRegisteredIntegrationEventHandler.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Administration.Application.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Users" t="Include">
+              <e p="UserContext.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.Administration.Domain" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Administration.Domain.csproj" t="IncludeRecursive" />
+            <e p="MeetingGroupProposals" t="Include">
+              <e p="Events" t="Include">
+                <e p="MeetingGroupProposalAcceptedDomainEvent.cs" t="Include" />
+                <e p="MeetingGroupProposalRejectedDomainEvent.cs" t="Include" />
+                <e p="MeetingGroupProposalVerificationRequestedDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IMeetingGroupProposalRepository.cs" t="Include" />
+              <e p="MeetingGroupLocation.cs" t="Include" />
+              <e p="MeetingGroupProposal.cs" t="Include" />
+              <e p="MeetingGroupProposalDecision.cs" t="Include" />
+              <e p="MeetingGroupProposalId.cs" t="Include" />
+              <e p="MeetingGroupProposalStatus.cs" t="Include" />
+              <e p="Rules" t="Include">
+                <e p="MeetingGroupProposalCanBeVerifiedOnceRule.cs" t="Include" />
+                <e p="MeetingGroupProposalRejectionMustHaveAReasonRule.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Members" t="Include">
+              <e p="Events" t="Include">
+                <e p="MemberCreatedDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IMemberRepository.cs" t="Include" />
+              <e p="Member.cs" t="Include" />
+              <e p="MemberId.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Administration.Domain.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Users" t="Include">
+              <e p="IUserContext.cs" t="Include" />
+              <e p="UserId.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.Administration.Infrastructure" t="IncludeRecursive">
+            <e p="AdministrationContext.cs" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Administration.Infrastructure.csproj" t="IncludeRecursive" />
+            <e p="InternalCommands" t="Include">
+              <e p="InternalCommandEntityTypeConfiguration.cs" t="Include" />
+            </e>
+            <e p="MeetingGroupProposals" t="Include">
+              <e p="MeetingGroupProposalEntityTypeConfiguration.cs" t="Include" />
+              <e p="MeetingGroupProposalRepository.cs" t="Include" />
+            </e>
+            <e p="Members" t="Include">
+              <e p="MemberEntityTypeConfiguration.cs" t="Include" />
+              <e p="MemberRepository.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Administration.Infrastructure.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Outbox" t="Include">
+              <e p="OutboxAccessor.cs" t="Include" />
+              <e p="OutboxMessageEntityTypeConfiguration.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.Administration.IntegrationEvents" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.csproj" t="IncludeRecursive" />
+            <e p="MeetingGroupProposalAcceptedIntegrationEvent.cs" t="Include" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Meetings" t="Include">
+          <e p="CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj" t="IncludeRecursive" />
+            <e p="MeetingAttendeeAddedIntegrationEvent.cs" t="Include" />
+            <e p="MeetingGroupProposedIntegrationEvent.cs" t="Include" />
+            <e p="MemberCreatedIntegrationEvent.cs" t="Include" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Payments\CompanyName.MyMeetings.Modules.Payments.Application" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.Modules.Payments.Application.csproj" t="IncludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="AllConstructorFinder.cs" t="Include" />
+            <e p="Authentication" t="Include">
+              <e p="AuthenticationModule.cs" t="Include" />
+              <e p="PayerContext.cs" t="Include" />
+            </e>
+            <e p="DataAccess" t="Include">
+              <e p="DataAccessModule.cs" t="Include" />
+            </e>
+            <e p="EventsBus" t="Include">
+              <e p="EventsBusModule.cs" t="Include" />
+              <e p="EventsBusStartup.cs" t="Include" />
+              <e p="IntegrationEventGenericHandler.cs" t="Include" />
+            </e>
+            <e p="Logging" t="Include">
+              <e p="LoggingModule.cs" t="Include" />
+            </e>
+            <e p="Mediation" t="Include">
+              <e p="MediatorModule.cs" t="Include" />
+            </e>
+            <e p="PaymentsCompositionRoot.cs" t="Include" />
+            <e p="PaymentsStartup.cs" t="Include" />
+            <e p="Processing" t="Include">
+              <e p="CommandsExecutor.cs" t="Include" />
+              <e p="ICommandHandler.cs" t="Include" />
+              <e p="Inbox" t="Include">
+                <e p="InboxMessageDto.cs" t="Include" />
+                <e p="ProcessInboxCommand.cs" t="Include" />
+                <e p="ProcessInboxCommandHandler.cs" t="Include" />
+                <e p="ProcessInboxJob.cs" t="Include" />
+              </e>
+              <e p="InternalCommands" t="Include">
+                <e p="CommandsScheduler.cs" t="Include" />
+                <e p="ICommandsScheduler.cs" t="Include" />
+                <e p="InternalCommandBase.cs" t="Include" />
+                <e p="ProcessInternalCommandsCommand.cs" t="Include" />
+                <e p="ProcessInternalCommandsCommandHandler.cs" t="Include" />
+                <e p="ProcessInternalCommandsJob.cs" t="Include" />
+              </e>
+              <e p="IRecurringCommand.cs" t="Include" />
+              <e p="LoggingCommandHandlerDecorator.cs" t="Include" />
+              <e p="Outbox" t="Include">
+                <e p="OutboxMessageDto.cs" t="Include" />
+                <e p="OutboxModule.cs" t="Include" />
+                <e p="ProcessOutboxCommand.cs" t="Include" />
+                <e p="ProcessOutboxCommandHandler.cs" t="Include" />
+                <e p="ProcessOutboxJob.cs" t="Include" />
+              </e>
+              <e p="ProcessingModule.cs" t="Include" />
+              <e p="QueryExecutor.cs" t="Include" />
+              <e p="UnitOfWorkCommandHandlerDecorator.cs" t="Include" />
+              <e p="ValidationCommandHandlerDecorator.cs" t="Include" />
+            </e>
+            <e p="Quartz" t="Include">
+              <e p="QuartzModule.cs" t="Include" />
+              <e p="QuartzStartup.cs" t="Include" />
+              <e p="SerilogLogProvider.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Contracts" t="Include">
+            <e p="CommandBase.cs" t="Include" />
+            <e p="ICommand.cs" t="Include" />
+            <e p="IPaymentsModule.cs" t="Include" />
+            <e p="IQuery.cs" t="Include" />
+            <e p="PaymentsModule.cs" t="Include" />
+          </e>
+          <e p="MeetingGroupPaymentRegisters" t="Include">
+            <e p="CreatePaymentRegister" t="Include">
+              <e p="CreatePaymentRegisterCommand.cs" t="Include" />
+              <e p="CreatePaymentRegisterCommandHandler.cs" t="Include" />
+            </e>
+            <e p="CreatePaymentScheduleAfterMeetingGroupProposalAcceptedHandler.cs" t="Include" />
+            <e p="RegisterPayment" t="Include">
+              <e p="PaymentRegisteredNotification.cs" t="Include" />
+              <e p="PaymentRegisteredNotificationHandler.cs" t="Include" />
+              <e p="RegisterPaymentCommand.cs" t="Include" />
+              <e p="RegisterPaymentCommandHandler.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MeetingPayments" t="Include">
+            <e p="CreateMeetingPayment" t="Include">
+              <e p="CreateMeetingPaymentCommand.cs" t="Include" />
+              <e p="CreateMeetingPaymentCommandHandler.cs" t="Include" />
+            </e>
+            <e p="MeetingAttendeeAddedIntegrationEventHandler.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="CompanyName.MyMeetings.Modules.Payments.Application.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Payers" t="Include">
+            <e p="CreatePayer" t="Include">
+              <e p="CreatePayerCommand.cs" t="Include" />
+              <e p="CreatePayerCommandHandler.cs" t="Include" />
+              <e p="NewUserRegisteredIntegrationEventHandler.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Payments\CompanyName.MyMeetings.Modules.Payments.Domain" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.Modules.Payments.Domain.csproj" t="IncludeRecursive" />
+          <e p="MeetingGroupPaymentRegisters" t="Include">
+            <e p="Events" t="Include">
+              <e p="MeetingGroupPaymentRegisterCreatedDomainEvent.cs" t="Include" />
+              <e p="PaymentRegisteredDomainEvent.cs" t="Include" />
+            </e>
+            <e p="IMeetingGroupPaymentRegisterRepository.cs" t="Include" />
+            <e p="MeetingGroupId.cs" t="Include" />
+            <e p="MeetingGroupPayment.cs" t="Include" />
+            <e p="MeetingGroupPaymentId.cs" t="Include" />
+            <e p="MeetingGroupPaymentRegister.cs" t="Include" />
+            <e p="MeetingGroupPaymentRegisterId.cs" t="Include" />
+            <e p="PaymentTerm.cs" t="Include" />
+            <e p="Rules" t="Include">
+              <e p="MeetingGroupPaymentsCannotOverlapRule.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MeetingPayments" t="Include">
+            <e p="Events" t="Include">
+              <e p="MeetingPayedDomainEvent.cs" t="Include" />
+              <e p="MeetingPaymentCreatedDomainEvent.cs" t="Include" />
+            </e>
+            <e p="IMeetingPaymentRepository.cs" t="Include" />
+            <e p="MeetingId.cs" t="Include" />
+            <e p="MeetingPayment.cs" t="Include" />
+            <e p="MoneyValue.cs" t="Include" />
+            <e p="Rules" t="Include">
+              <e p="MeetingPaymentCannotBePayedTwiceRule.cs" t="Include" />
+              <e p="MeetingPaymentFeeMustBeGreaterThanZeroRule.cs" t="Include" />
+            </e>
+            <e p="SystemClock.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="CompanyName.MyMeetings.Modules.Payments.Domain.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Payers" t="Include">
+            <e p="Events" t="Include">
+              <e p="PayerCreatedDomainEvent.cs" t="Include" />
+            </e>
+            <e p="IPayerContext.cs" t="Include" />
+            <e p="IPayerRepository.cs" t="Include" />
+            <e p="Payer.cs" t="Include" />
+            <e p="PayerId.cs" t="Include" />
+          </e>
+          <e p="Users" t="Include">
+            <e p="IUserContext.cs" t="Include" />
+            <e p="UserId.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Payments\CompanyName.MyMeetings.Modules.Payments.Infrastructure" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.Modules.Payments.Infrastructure.csproj" t="IncludeRecursive" />
+          <e p="InternalCommands" t="Include">
+            <e p="InternalCommandEntityTypeConfiguration.cs" t="Include" />
+          </e>
+          <e p="MeetingGroupPaymentRegisters" t="Include">
+            <e p="MeetingGroupPaymentRegisterEntityTypeConfiguration.cs" t="Include" />
+            <e p="MeetingGroupPaymentRegisterRepository.cs" t="Include" />
+          </e>
+          <e p="MeetingPayments" t="Include">
+            <e p="MeetingPaymentEntityTypeConfiguration.cs" t="Include" />
+            <e p="MeetingPaymentRepository.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="CompanyName.MyMeetings.Modules.Payments.Infrastructure.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Outbox" t="Include">
+            <e p="OutboxAccessor.cs" t="Include" />
+            <e p="OutboxMessageEntityTypeConfiguration.cs" t="Include" />
+          </e>
+          <e p="Payers" t="Include">
+            <e p="PayerEntityTypeConfiguration.cs" t="Include" />
+            <e p="PayerRepository.cs" t="Include" />
+          </e>
+          <e p="PaymentsContext.cs" t="Include" />
+        </e>
+        <e p="Payments\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.Modules.Payments.IntegrationEvents.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="CompanyName.MyMeetings.Modules.Payments.IntegrationEvents.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="PaymentRegisteredIntegrationEvent.cs" t="Include" />
+        </e>
+        <e p="UserAccess" t="Include">
+          <e p="CompanyName.MyMeetings.Modules.UserAccess.Application" t="IncludeRecursive">
+            <e p="Authentication" t="Include">
+              <e p="Authenticate" t="Include">
+                <e p="AuthenticateCommand.cs" t="Include" />
+                <e p="AuthenticateCommandHandler.cs" t="Include" />
+                <e p="AuthenticateCommandValidator.cs" t="Include" />
+                <e p="AuthenticationResult.cs" t="Include" />
+                <e p="UserDto.cs" t="Include" />
+              </e>
+              <e p="PasswordManager.cs" t="Include" />
+            </e>
+            <e p="Authorization" t="Include">
+              <e p="GetUserPermissions" t="Include">
+                <e p="GetUserPermissionsQuery.cs" t="Include" />
+                <e p="GetUserPermissionsQueryHandler.cs" t="Include" />
+                <e p="UserPermissionDto.cs" t="Include" />
+              </e>
+            </e>
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.UserAccess.Application.csproj" t="IncludeRecursive" />
+            <e p="Configuration" t="Include">
+              <e p="AllConstructorFinder.cs" t="Include" />
+              <e p="DataAccess" t="Include">
+                <e p="DataAccessModule.cs" t="Include" />
+              </e>
+              <e p="Domain" t="Include">
+                <e p="DomainModule.cs" t="Include" />
+              </e>
+              <e p="Email" t="Include">
+                <e p="EmailModule.cs" t="Include" />
+              </e>
+              <e p="EventsBus" t="Include">
+                <e p="EventsBusModule.cs" t="Include" />
+                <e p="EventsBusStartup.cs" t="Include" />
+                <e p="IntegrationEventGenericHandler.cs" t="Include" />
+              </e>
+              <e p="Logging" t="Include">
+                <e p="LoggingModule.cs" t="Include" />
+              </e>
+              <e p="Mediation" t="Include">
+                <e p="MediatorModule.cs" t="Include" />
+              </e>
+              <e p="Processing" t="Include">
+                <e p="CommandsExecutor.cs" t="Include" />
+                <e p="ICommandHandler.cs" t="Include" />
+                <e p="Inbox" t="Include">
+                  <e p="InboxMessageDto.cs" t="Include" />
+                  <e p="ProcessInboxCommand.cs" t="Include" />
+                  <e p="ProcessInboxCommandHandler.cs" t="Include" />
+                  <e p="ProcessInboxJob.cs" t="Include" />
+                </e>
+                <e p="InternalCommands" t="Include">
+                  <e p="CommandsScheduler.cs" t="Include" />
+                  <e p="ICommandsScheduler.cs" t="Include" />
+                  <e p="InternalCommandBase.cs" t="Include" />
+                  <e p="ProcessInternalCommandsCommand.cs" t="Include" />
+                  <e p="ProcessInternalCommandsCommandHandler.cs" t="Include" />
+                  <e p="ProcessInternalCommandsJob.cs" t="Include" />
+                </e>
+                <e p="IQueryHandler.cs" t="Include" />
+                <e p="IRecurringCommand.cs" t="Include" />
+                <e p="LoggingCommandHandlerDecorator.cs" t="Include" />
+                <e p="LoggingCommandHandlerWithResultDecorator.cs" t="Include" />
+                <e p="Outbox" t="Include">
+                  <e p="OutboxMessageDto.cs" t="Include" />
+                  <e p="OutboxModule.cs" t="Include" />
+                  <e p="ProcessOutboxCommand.cs" t="Include" />
+                  <e p="ProcessOutboxCommandHandler.cs" t="Include" />
+                  <e p="ProcessOutboxJob.cs" t="Include" />
+                </e>
+                <e p="ProcessingModule.cs" t="Include" />
+                <e p="QueryExecutor.cs" t="Include" />
+                <e p="UnitOfWorkCommandHandlerDecorator.cs" t="Include" />
+                <e p="UnitOfWorkCommandHandlerWithResultDecorator.cs" t="Include" />
+                <e p="ValidationCommandHandlerDecorator.cs" t="Include" />
+                <e p="ValidationCommandHandlerWithResultDecorator.cs" t="Include" />
+              </e>
+              <e p="Quartz" t="Include">
+                <e p="QuartzModule.cs" t="Include" />
+                <e p="QuartzStartup.cs" t="Include" />
+                <e p="SerilogLogProvider.cs" t="Include" />
+              </e>
+              <e p="Security" t="Include">
+                <e p="AesDataProtector.cs" t="Include" />
+                <e p="IDataProtector.cs" t="Include" />
+                <e p="SecurityModule.cs" t="Include" />
+              </e>
+              <e p="UserAccessCompositionRoot.cs" t="Include" />
+              <e p="UserAccessStartup.cs" t="Include" />
+            </e>
+            <e p="Contracts" t="Include">
+              <e p="CommandBase.cs" t="Include" />
+              <e p="CustomClaimTypes.cs" t="Include" />
+              <e p="ICommand.cs" t="Include" />
+              <e p="IQuery.cs" t="Include" />
+              <e p="IUserAccessModule.cs" t="Include" />
+              <e p="QueryBase.cs" t="Include" />
+              <e p="Roles.cs" t="Include" />
+              <e p="UserAccessModule.cs" t="Include" />
+            </e>
+            <e p="IdentityServer" t="Include">
+              <e p="IdentityServerConfig.cs" t="Include" />
+              <e p="ProfileService.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.UserAccess.Application.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="UserRegistrations" t="Include">
+              <e p="ConfirmUserRegistration" t="Include">
+                <e p="ConfirmUserRegistrationCommand.cs" t="Include" />
+                <e p="ConfirmUserRegistrationCommandHandler.cs" t="Include" />
+              </e>
+              <e p="RegisterNewUser" t="Include">
+                <e p="NewUserRegisteredEnqueueEmailConfirmationHandler.cs" t="Include" />
+                <e p="NewUserRegisteredNotification.cs" t="Include" />
+                <e p="NewUserRegisteredPublishEventHandler.cs" t="Include" />
+                <e p="RegisterNewUserCommand.cs" t="Include" />
+                <e p="RegisterNewUserCommandHandler.cs" t="Include" />
+              </e>
+              <e p="SendUserRegistrationConfirmationEmail" t="Include">
+                <e p="SendUserRegistrationConfirmationEmailCommand.cs" t="Include" />
+                <e p="SendUserRegistrationConfirmationEmailCommandHandler.cs" t="Include" />
+              </e>
+              <e p="UsersCounter.cs" t="Include" />
+            </e>
+            <e p="Users" t="Include">
+              <e p="CreateUser" t="Include">
+                <e p="CreateUserCommand.cs" t="Include" />
+                <e p="CreateUserCommandHandler.cs" t="Include" />
+                <e p="UserRegistrationConfirmedNotification.cs" t="Include" />
+                <e p="UserRegistrationConfirmedNotificationHandler.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.UserAccess.Domain" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.UserAccess.Domain.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.UserAccess.Domain.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="UserRegistrations" t="Include">
+              <e p="Events" t="Include">
+                <e p="NewUserRegisteredDomainEvent.cs" t="Include" />
+                <e p="UserRegistrationConfirmedDomainEvent.cs" t="Include" />
+                <e p="UserRegistrationExpiredDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IUserRegistrationRepository.cs" t="Include" />
+              <e p="IUsersCounter.cs" t="Include" />
+              <e p="Rules" t="Include">
+                <e p="UserCannotBeCreatedWhenRegistrationIsNotConfirmedRule.cs" t="Include" />
+                <e p="UserLoginMustBeUniqueRule.cs" t="Include" />
+                <e p="UserRegistrationCannotBeConfirmedAfterExpirationRule.cs" t="Include" />
+                <e p="UserRegistrationCannotBeConfirmedMoreThanOnceRule.cs" t="Include" />
+                <e p="UserRegistrationCannotBeExpiredMoreThanOnceRule.cs" t="Include" />
+              </e>
+              <e p="UserRegistration.cs" t="Include" />
+              <e p="UserRegistrationId.cs" t="Include" />
+              <e p="UserRegistrationStatus.cs" t="Include" />
+            </e>
+            <e p="Users" t="Include">
+              <e p="Events" t="Include">
+                <e p="UserCreatedDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IUserRepository.cs" t="Include" />
+              <e p="User.cs" t="Include" />
+              <e p="UserId.cs" t="Include" />
+              <e p="UserRole.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.UserAccess.Infrastructure" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.UserAccess.Infrastructure.csproj" t="IncludeRecursive" />
+            <e p="InternalCommands" t="Include">
+              <e p="InternalCommandEntityTypeConfiguration.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.UserAccess.Infrastructure.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Outbox" t="Include">
+              <e p="OutboxAccessor.cs" t="Include" />
+              <e p="OutboxMessageEntityTypeConfiguration.cs" t="Include" />
+            </e>
+            <e p="UserAccessContext.cs" t="Include" />
+            <e p="UserRegistrations" t="Include">
+              <e p="UserRegistrationEntityTypeConfiguration.cs" t="Include" />
+              <e p="UserRegistrationRepository.cs" t="Include" />
+            </e>
+            <e p="Users" t="Include">
+              <e p="UserEntityTypeConfiguration.cs" t="Include" />
+              <e p="UserRepository.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj" t="IncludeRecursive" />
+            <e p="NewUserRegisteredIntegrationEvent.cs" t="Include" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Payments.Infrastructure", "Modules\Payments\CompanyName.MyMeetings.Modules.Payments.Infrastructure\CompanyName.MyMeetings.Modules.Payments.Infrastructure.csproj", "{B45AA822-B897-4528-8748-EC348FB0E5E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.MyMeetings.Modules.Payments.Application", "Modules\Payments\CompanyName.MyMeetings.Modules.Payments.Application\CompanyName.MyMeetings.Modules.Payments.Application.csproj", "{7C20DD91-B9BF-4E05-A7F3-15E0F3910AE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{B45AA822-B897-4528-8748-EC348FB0E5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B45AA822-B897-4528-8748-EC348FB0E5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B45AA822-B897-4528-8748-EC348FB0E5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C20DD91-B9BF-4E05-A7F3-15E0F3910AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C20DD91-B9BF-4E05-A7F3-15E0F3910AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C20DD91-B9BF-4E05-A7F3-15E0F3910AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C20DD91-B9BF-4E05-A7F3-15E0F3910AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +148,7 @@ Global
 		{28276BCA-B58B-4DAE-AC38-A44A615A99EE} = {094FB086-83FB-4F5A-A4D0-854C498F2BCF}
 		{48DAB069-A85D-4721-AB2F-A7B1F95F7CEC} = {094FB086-83FB-4F5A-A4D0-854C498F2BCF}
 		{B45AA822-B897-4528-8748-EC348FB0E5E3} = {094FB086-83FB-4F5A-A4D0-854C498F2BCF}
+		{7C20DD91-B9BF-4E05-A7F3-15E0F3910AE2} = {094FB086-83FB-4F5A-A4D0-854C498F2BCF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A133C59E-22FF-4EFB-9043-2B3A9596792B}

@@ -5,9 +5,9 @@ namespace CompanyName.MyMeetings.Modules.Payments.IntegrationEvents
 {
     public class PaymentRegisteredIntegrationEvent : IntegrationEvent
     {
-        public Guid MeetingGroupPaymentRegisterId { get; set; }
+        public Guid MeetingGroupPaymentRegisterId { get; }
 
-        public DateTime DateTo { get; set; }
+        public DateTime DateTo { get; }
 
         public PaymentRegisteredIntegrationEvent(
             Guid id, 
