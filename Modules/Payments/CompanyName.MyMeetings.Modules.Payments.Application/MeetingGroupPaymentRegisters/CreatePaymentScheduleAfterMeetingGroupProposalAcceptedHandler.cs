@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CompanyName.MyMeetings.Modules.Administration.IntegrationEvents;
+using CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.MeetingGroupProposals;
 using CompanyName.MyMeetings.Modules.Payments.Application.Configuration.Processing.InternalCommands;
 using CompanyName.MyMeetings.Modules.Payments.Application.MeetingGroupPaymentRegisters.CreatePaymentRegister;
 using MediatR;

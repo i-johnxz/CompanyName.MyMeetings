@@ -6,7 +6,7 @@ using MediatR;
 
 namespace CompanyName.MyMeetings.Modules.Payments.Application.Payers.CreatePayer
 {
-    public class CreatePayerCommandHandler : ICommandHandler<CreatePayerCommand>
+    internal class CreatePayerCommandHandler : ICommandHandler<CreatePayerCommand>
     {
         private readonly IPayerRepository _payerRepository;
 
@@ -15,19 +15,13 @@ namespace CompanyName.MyMeetings.Modules.Payments.Application.Payers.CreatePayer
             _payerRepository = payerRepository;
         }
 
-
         public async Task<Unit> Handle(CreatePayerCommand request, CancellationToken cancellationToken)
         {
-            var payer = Payer.Create(
-                request.UserId, 
-                request.Login, 
-                request.Email, 
-                request.FirstName, 
-                request.LastName,
+            var payer = Payer.Create(request.UserId, request.Login, request.Email, request.FirstName, request.LastName,
                 request.Name);
 
             await _payerRepository.AddAsync(payer);
-            
+
             return Unit.Value;
         }
     }

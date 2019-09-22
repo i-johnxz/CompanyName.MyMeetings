@@ -4,6 +4,79 @@
     <e p="C:\Users\johnxiong\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\johnxiong\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CompanyName.MyMeetings.1008475509.00" t="ExcludeRecursive" />
     <e p="F:\Demo\dotnet\CompanyName.MyMeetings\CompanyName.MyMeetings" t="IncludeFlat">
+      <e p="API" t="Include">
+        <e p="CompanyName.MyMeetings.API" t="IncludeRecursive">
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CompanyName.MyMeetings.API.csproj" t="IncludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="Authorization" t="Include">
+              <e p="AttributeAuthorizationHandler.cs" t="Include" />
+              <e p="HasPermissionAttribute.cs" t="Include" />
+              <e p="HasPermissionAuthorizationHandler.cs" t="Include" />
+              <e p="HasPermissionAuthorizationRequirement.cs" t="Include" />
+            </e>
+            <e p="Validation" t="Include">
+              <e p="BusinessRuleValidationExceptionProblemDetails.cs" t="Include" />
+              <e p="InvalidCommandProblemDetails.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CorrelationMiddleware.cs" t="Include" />
+          <e p="ExecutionContextAccessor.cs" t="Include" />
+          <e p="Modules" t="Include">
+            <e p="Administration" t="Include">
+              <e p="AdministrationAutofacModule.cs" t="Include" />
+              <e p="AdministrationPermissions.cs" t="Include" />
+              <e p="MeetingGroupProposals" t="Include">
+                <e p="MeetingGroupProposalsController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Meetings" t="Include">
+              <e p="MeetingGroupProposals" t="Include">
+                <e p="MeetingGroupProposalsController.cs" t="Include" />
+                <e p="ProposeMeetingGroupRequest.cs" t="Include" />
+              </e>
+              <e p="MeetingGroups" t="Include">
+                <e p="CreateNewMeetingGroupRequest.cs" t="Include" />
+                <e p="EditMeetingGroupGeneralAttributesRequest.cs" t="Include" />
+                <e p="MeetingGroupsController.cs" t="Include" />
+              </e>
+              <e p="MeetingsAutofacModule.cs" t="Include" />
+              <e p="MeetingsController.cs" t="Include" />
+              <e p="MeetingsPermissions.cs" t="Include" />
+              <e p="RemoveMeetingAttendeeRequest.cs" t="Include" />
+              <e p="SetMeetingAttendeeRequest.cs" t="Include" />
+              <e p="SetMeetingHostRequest.cs" t="Include" />
+            </e>
+            <e p="Payments" t="Include">
+              <e p="PaymentsAutofacModule.cs" t="Include" />
+              <e p="PaymentsController.cs" t="Include" />
+              <e p="PaymentsPermissions.cs" t="Include" />
+              <e p="RegisterPaymentRequest.cs" t="Include" />
+            </e>
+            <e p="UserAccess" t="Include">
+              <e p="RegisterNewUserRequest.cs" t="Include" />
+              <e p="ResourceOwnerPasswordValidator.cs" t="Include" />
+              <e p="UserAccessAutofacModule.cs" t="Include" />
+              <e p="UserRegistrationsController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="CompanyName.MyMeetings.API.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Startup.cs" t="Include" />
+          <e p="tempkey.rsa" t="Include" />
+        </e>
+      </e>
       <e p="BuildingBlocks" t="Include">
         <e p="CompanyName.MyMeetings.BuildingBlocks.Application" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
@@ -273,7 +346,9 @@
           <e p="CompanyName.MyMeetings.Modules.Administration.IntegrationEvents" t="IncludeRecursive">
             <e p="bin" t="ExcludeRecursive" />
             <e p="CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.csproj" t="IncludeRecursive" />
-            <e p="MeetingGroupProposalAcceptedIntegrationEvent.cs" t="Include" />
+            <e p="MeetingGroupProposals" t="Include">
+              <e p="MeetingGroupProposalAcceptedIntegrationEvent.cs" t="Include" />
+            </e>
             <e p="obj" t="ExcludeRecursive">
               <e p="Debug" t="Include">
                 <e p="netstandard2.0" t="Include">
@@ -284,6 +359,345 @@
           </e>
         </e>
         <e p="Meetings" t="Include">
+          <e p="CompanyName.MyMeetings.Modules.Meetings.Application" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Meetings.Application.csproj" t="IncludeRecursive" />
+            <e p="Configuration" t="Include">
+              <e p="AllConstructorFinder.cs" t="Include" />
+              <e p="Authentication" t="Include">
+                <e p="AuthenticationModule.cs" t="Include" />
+              </e>
+              <e p="DataAccess" t="Include">
+                <e p="DataAccessModule.cs" t="Include" />
+              </e>
+              <e p="Email" t="Include">
+                <e p="EmailModule.cs" t="Include" />
+              </e>
+              <e p="EventsBus" t="Include">
+                <e p="EventsBusModule.cs" t="Include" />
+                <e p="EventsBusStartup.cs" t="Include" />
+                <e p="IntegrationEventGenericHandler.cs" t="Include" />
+              </e>
+              <e p="Logging" t="Include">
+                <e p="LoggingModule.cs" t="Include" />
+              </e>
+              <e p="Mediation" t="Include">
+                <e p="MediatorModule.cs" t="Include" />
+              </e>
+              <e p="MeetingsCompositionRoot.cs" t="Include" />
+              <e p="MeetingsStartup.cs" t="Include" />
+              <e p="Processing" t="Include">
+                <e p="CommandsExecutor.cs" t="Include" />
+                <e p="ICommandHandler.cs" t="Include" />
+                <e p="Inbox" t="Include">
+                  <e p="InboxMessageDto.cs" t="Include" />
+                  <e p="ProcessInboxCommand.cs" t="Include" />
+                  <e p="ProcessInboxCommandHandler.cs" t="Include" />
+                  <e p="ProcessInboxJob.cs" t="Include" />
+                </e>
+                <e p="InternalCommands" t="Include">
+                  <e p="CommandsScheduler.cs" t="Include" />
+                  <e p="ICommandsScheduler.cs" t="Include" />
+                  <e p="InternalCommandBase.cs" t="Include" />
+                  <e p="ProcessInternalCommandsCommand.cs" t="Include" />
+                  <e p="ProcessInternalCommandsCommandHandler.cs" t="Include" />
+                  <e p="ProcessInternalCommandsJob.cs" t="Include" />
+                </e>
+                <e p="IRecurringCommand.cs" t="Include" />
+                <e p="LoggingCommandHandlerDecorator.cs" t="Include" />
+                <e p="Outbox" t="Include">
+                  <e p="OutboxMessageDto.cs" t="Include" />
+                  <e p="OutboxModule.cs" t="Include" />
+                  <e p="ProcessOutboxCommand.cs" t="Include" />
+                  <e p="ProcessOutboxCommandHandler.cs" t="Include" />
+                  <e p="ProcessOutboxJob.cs" t="Include" />
+                </e>
+                <e p="ProcessingModule.cs" t="Include" />
+                <e p="UnitOfWorkCommandHandlerDecorator.cs" t="Include" />
+                <e p="ValidationCommandHandlerDecorator.cs" t="Include" />
+              </e>
+              <e p="Quartz" t="Include">
+                <e p="QuartzModule.cs" t="Include" />
+                <e p="QuartzStartup.cs" t="Include" />
+                <e p="SerilogLogProvider.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Contracts" t="Include">
+              <e p="CommandBase.cs" t="Include" />
+              <e p="ICommand.cs" t="Include" />
+              <e p="IMeetingsModule.cs" t="Include" />
+              <e p="IQuery.cs" t="Include" />
+              <e p="MeetingsModule.cs" t="Include" />
+            </e>
+            <e p="MeetingGroupProposals" t="Include">
+              <e p="AcceptMeetingGroupProposal" t="Include">
+                <e p="AcceptMeetingGroupProposalCommand.cs" t="Include" />
+                <e p="AcceptMeetingGroupProposalCommandHandler.cs" t="Include" />
+                <e p="AcceptMeetingGroupProposalCommandValidator.cs" t="Include" />
+                <e p="MeetingGroupProposalAcceptedNotification.cs" t="Include" />
+                <e p="MeetingGroupProposalAcceptedNotificationHandler.cs" t="Include" />
+              </e>
+              <e p="MeetingGroupProposalAcceptedIntegrationEventHandler.cs" t="Include" />
+              <e p="MeetingGroupProposedNotification.cs" t="Include" />
+              <e p="MeetingGroupProposedNotificationHandler.cs" t="Include" />
+              <e p="ProposeMeetingGroup" t="Include">
+                <e p="ProposeMeetingGroupCommand.cs" t="Include" />
+                <e p="ProposeMeetingGroupCommandHandler.cs" t="Include" />
+                <e p="ProposeMeetingGroupCommandValidator.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MeetingGroups" t="Include">
+              <e p="CreateNewMeetingGroup" t="Include">
+                <e p="CreateNewMeetingGroupCommand.cs" t="Include" />
+                <e p="CreateNewMeetingGroupCommandHandler.cs" t="Include" />
+              </e>
+              <e p="EditMeetingGroupGeneralAttributes" t="Include">
+                <e p="EditMeetingGroupGeneralAttributesCommand.cs" t="Include" />
+                <e p="EditMeetingGroupGeneralAttributesCommandHandler.cs" t="Include" />
+              </e>
+              <e p="GetAllMeetingGroups" t="Include">
+                <e p="GetAllMeetingGroupsQuery.cs" t="Include" />
+                <e p="GetAllMeetingGroupsQueryHandler.cs" t="Include" />
+                <e p="MeetingGroupDto.cs" t="Include" />
+              </e>
+              <e p="JoinToGroup" t="Include">
+                <e p="JoinToGroupCommand.cs" t="Include" />
+                <e p="JoinToGroupCommandHandler.cs" t="Include" />
+              </e>
+              <e p="LeaveMeetingGroup" t="Include">
+                <e p="LeaveMeetingGroupCommand.cs" t="Include" />
+                <e p="LeaveMeetingGroupCommandHandler.cs" t="Include" />
+              </e>
+              <e p="MeetingGroupCreatedNotification.cs" t="Include" />
+              <e p="MeetingGroupCreatedSendEmailHandler.cs" t="Include" />
+              <e p="SendMeetingGroupCreatedEmail" t="Include">
+                <e p="SendMeetingGroupCreatedEmailCommand.cs" t="Include" />
+                <e p="SendMeetingGroupCreatedEmailCommandHandler.cs" t="Include" />
+              </e>
+              <e p="UpdatePaymentInfo" t="Include">
+                <e p="PaymentRegisteredIntegrationEventHandler.cs" t="Include" />
+                <e p="UpdateMeetingGroupPaymentInfoCommand.cs" t="Include" />
+                <e p="UpdateMeetingGroupPaymentInfoCommandHandler.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Meetings" t="Include">
+              <e p="AddMeetingAttendee" t="Include">
+                <e p="AddMeetingAttendeeCommand.cs" t="Include" />
+                <e p="AddMeetingAttendeeCommandHandler.cs" t="Include" />
+                <e p="AddMeetingAttendeeCommandRequest.cs" t="Include" />
+              </e>
+              <e p="AddMeetingNotAttendee" t="Include">
+                <e p="AddMeetingNotAttendeeCommand.cs" t="Include" />
+                <e p="AddMeetingNotAttendeeCommandHandler.cs" t="Include" />
+              </e>
+              <e p="CancelMeeting" t="Include">
+                <e p="CancelMeetingCommand.cs" t="Include" />
+                <e p="CancelMeetingCommandHandler.cs" t="Include" />
+              </e>
+              <e p="ChangeMeetingMainAttributes" t="Include">
+                <e p="ChangeMeetingMainAttributesCommand.cs" t="Include" />
+                <e p="ChangeMeetingMainAttributesCommandHandler.cs" t="Include" />
+                <e p="ChangeMeetingMainAttributesRequest.cs" t="Include" />
+              </e>
+              <e p="ChangeNotAttendeeDecision" t="Include">
+                <e p="ChangeNotAttendeeDecisionCommand.cs" t="Include" />
+                <e p="ChangeNotAttendeeDecisionCommandHandler.cs" t="Include" />
+              </e>
+              <e p="CreateMeeting" t="Include">
+                <e p="CreateMeetingCommand.cs" t="Include" />
+                <e p="CreateMeetingCommandHandler.cs" t="Include" />
+                <e p="CreateMeetingRequest.cs" t="Include" />
+              </e>
+              <e p="MeetingDto.cs" t="Include" />
+              <e p="MeetingsQueryHelper.cs" t="Include" />
+              <e p="RemoveMeetingAttendee" t="Include">
+                <e p="RemoveMeetingAttendeeCommand.cs" t="Include" />
+                <e p="RemoveMeetingAttendeeCommandHandler.cs" t="Include" />
+              </e>
+              <e p="SendMeetingAttendeeAddedEmail" t="Include">
+                <e p="MeetingAttendeeAddedNotification.cs" t="Include" />
+                <e p="MeetingAttendeeAddedNotificationHandler.cs" t="Include" />
+                <e p="MeetingAttendeeAddedPublishEventNotificationHandler.cs" t="Include" />
+                <e p="SendMeetingAttendeeAddedEmailCommand.cs" t="Include" />
+                <e p="SendMeetingAttendeeAddedEmailCommandHandler.cs" t="Include" />
+              </e>
+              <e p="SetMeetingAttendeeRole" t="Include">
+                <e p="SetMeetingAttendeeRoleCommand.cs" t="Include" />
+                <e p="SetMeetingAttendeeRoleCommandHandler.cs" t="Include" />
+              </e>
+              <e p="SetMeetingHostRole" t="Include">
+                <e p="SetMeetingHostRoleCommand.cs" t="Include" />
+                <e p="SetMeetingHostRoleCommandHandler.cs" t="Include" />
+              </e>
+              <e p="SignOffMemberFromWaitlist" t="Include">
+                <e p="SignOffMemberFromWaitlistCommand.cs" t="Include" />
+                <e p="SignOffMemberFromWaitlistCommandHandler.cs" t="Include" />
+              </e>
+              <e p="SignUpMemberToWaitlist" t="Include">
+                <e p="SignUpMemberToWaitlistCommand.cs" t="Include" />
+                <e p="SignUpMemberToWaitlistCommandHandler.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Members" t="Include">
+              <e p="CreateMember" t="Include">
+                <e p="CreateMemberCommand.cs" t="Include" />
+                <e p="CreateMemberCommandHandler.cs" t="Include" />
+                <e p="MemberCratedNotificationHandler.cs" t="Include" />
+                <e p="MemberCreatedNotification.cs" t="Include" />
+                <e p="NewUserRegisteredIntegrationEventHandler.cs" t="Include" />
+              </e>
+              <e p="MemberContext.cs" t="Include" />
+              <e p="MemberDto.cs" t="Include" />
+              <e p="MembersQueryHelper.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp2.2" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Meetings.Application.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.Meetings.Domain" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Meetings.Domain.csproj" t="IncludeRecursive" />
+            <e p="MeetingGroupProposals" t="Include">
+              <e p="Events" t="Include">
+                <e p="MeetingGroupProposalAcceptedDomainEvent.cs" t="Include" />
+                <e p="MeetingGroupProposedDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IMeetingGroupProposalRepository.cs" t="Include" />
+              <e p="MeetingGroupProposal.cs" t="Include" />
+              <e p="MeetingGroupProposalId.cs" t="Include" />
+              <e p="MeetingGroupProposalStatus.cs" t="Include" />
+              <e p="Rules" t="Include">
+                <e p="MeetingGroupProposalCannotBeAcceptedMoreThanOnceRule.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MeetingGroups" t="Include">
+              <e p="Events" t="Include">
+                <e p="MeetingAttendeeChangedDecisionDomainEvent.cs" t="Include" />
+                <e p="MeetingGroupCreatedDomainEvent.cs" t="Include" />
+                <e p="MeetingGroupGeneralAttributesEditedDomainEvent.cs" t="Include" />
+                <e p="MeetingGroupMemberLeftGroupDomainEvent.cs" t="Include" />
+                <e p="MeetingGroupPaymentInfoUpdatedDomainEvent.cs" t="Include" />
+                <e p="MeetingNotAttendeeChangedDecisionDomainEvent.cs" t="Include" />
+                <e p="NewMeetingGroupMemberJoinedDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IMeetingGroupRepository.cs" t="Include" />
+              <e p="MeetingGroup.cs" t="Include" />
+              <e p="MeetingGroupId.cs" t="Include" />
+              <e p="MeetingGroupLocation.cs" t="Include" />
+              <e p="MeetingGroupMember.cs" t="Include" />
+              <e p="MeetingGroupMemberRole.cs" t="Include" />
+              <e p="Rules" t="Include">
+                <e p="MeetingCanBeOrganizedOnlyByPayedGroupRule.cs" t="Include" />
+                <e p="MeetingGroupMemberCannotBeAddedTwiceRule.cs" t="Include" />
+                <e p="MeetingHostMustBeAMeetingGroupMemberRule.cs" t="Include" />
+                <e p="NotActualGroupMemberCannotLeaveGroupRule.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Meetings" t="Include">
+              <e p="Events" t="Include">
+                <e p="MeetingAttendeeAddedDomainEvent.cs" t="Include" />
+                <e p="MeetingAttendeeRemovedDomainEvent.cs" t="Include" />
+                <e p="MeetingCanceledDomainEvent.cs" t="Include" />
+                <e p="MeetingCreatedDomainEvent.cs" t="Include" />
+                <e p="MeetingEditedDomainEvent.cs" t="Include" />
+                <e p="MeetingMainAttributesChangedDomainEvent.cs" t="Include" />
+                <e p="MeetingNotAttendeeAddedDomainEvent.cs" t="Include" />
+                <e p="MeetingWaitlistMemberAddedDomainEvent.cs" t="Include" />
+                <e p="MemberSetAsAttendeeDomainEvent.cs" t="Include" />
+                <e p="MemberSignedOffFromMeetingWaitlistDomainEvent.cs" t="Include" />
+                <e p="NewMeetingHostSetDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IMeetingRepository.cs" t="Include" />
+              <e p="Meeting.cs" t="Include" />
+              <e p="MeetingAttendee.cs" t="Include" />
+              <e p="MeetingAttendeeRole.cs" t="Include" />
+              <e p="MeetingId.cs" t="Include" />
+              <e p="MeetingLocation.cs" t="Include" />
+              <e p="MeetingNotAttendee.cs" t="Include" />
+              <e p="MeetingTerm.cs" t="Include" />
+              <e p="MeetingWaitlistMember.cs" t="Include" />
+              <e p="MoneyValue.cs" t="Include" />
+              <e p="Rules" t="Include">
+                <e p="AttendeeCanBeAddedOnlyInRsvpTermRule.cs" t="Include" />
+                <e p="AttendeesLimitCannotBeChangedToSmallerThanActiveAttendeesRule.cs" t="Include" />
+                <e p="MeetingAttendeeMustBeAMemberOfGroupRule.cs" t="Include" />
+                <e p="MeetingAttendeesNumberIsAboveLimitRule.cs" t="Include" />
+                <e p="MeetingCannotBeChangedAfterStartRule.cs" t="Include" />
+                <e p="MeetingGuestsNumberIsAboveLimitRule.cs" t="Include" />
+                <e p="MeetingMustHaveAtLeastOneHostRule.cs" t="Include" />
+                <e p="MemberCannotBeAnAttendeeOfMeetingMoreThanOnceRule.cs" t="Include" />
+                <e p="MemberCannotBeMoreThanOnceOnMeetingWaitlistRule.cs" t="Include" />
+                <e p="MemberCannotBeNotAttendeeTwiceRule.cs" t="Include" />
+                <e p="MemberCannotHaveSetAttendeeRoleMoreThanOnceRule.cs" t="Include" />
+                <e p="MemberOnWaitlistMustBeAMemberOfGroupRule.cs" t="Include" />
+                <e p="NotActiveMemberOfWaitlistCannotBeSignedOffRule.cs" t="Include" />
+                <e p="NotActiveNotAttendeeCannotChangeDecisionRule.cs" t="Include" />
+                <e p="OnlyActiveAttendeeCanBeRemovedFromMeetingRule.cs" t="Include" />
+                <e p="OnlyMeetingAttendeeCanHaveChangedRoleRule.cs" t="Include" />
+                <e p="OnlyMeetingOrGroupOrganizerCanSetMeetingMemberRolesRule.cs" t="Include" />
+                <e p="ReasonOfRemovingAttendeeFromMeetingMustBeProvidedRule.cs" t="Include" />
+              </e>
+              <e p="Term.cs" t="Include" />
+            </e>
+            <e p="Members" t="Include">
+              <e p="Events" t="Include">
+                <e p="MemberCreatedDomainEvent.cs" t="Include" />
+              </e>
+              <e p="IMemberContext.cs" t="Include" />
+              <e p="IMemberRepository.cs" t="Include" />
+              <e p="Member.cs" t="Include" />
+              <e p="MemberId.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp2.2" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Meetings.Domain.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="SharedKernel" t="Include">
+              <e p="SystemClock.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CompanyName.MyMeetings.Modules.Meetings.Infrastructure" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CompanyName.MyMeetings.Modules.Meetings.Infrastructure.csproj" t="IncludeRecursive" />
+            <e p="InternalCommands" t="Include">
+              <e p="InternalCommandEntityTypeConfiguration.cs" t="Include" />
+            </e>
+            <e p="MeetingGroupProposals" t="Include">
+              <e p="MeetingGroupProposalEntityTypeConfiguration.cs" t="Include" />
+              <e p="MeetingGroupProposalRepository.cs" t="Include" />
+            </e>
+            <e p="MeetingGroups" t="Include">
+              <e p="MeetingGroupRepository.cs" t="Include" />
+              <e p="MeetingGroupsEntityTypeConfiguration.cs" t="Include" />
+            </e>
+            <e p="Meetings" t="Include">
+              <e p="MeetingEntityTypeConfiguration.cs" t="Include" />
+              <e p="MeetingRepository.cs" t="Include" />
+            </e>
+            <e p="MeetingsContext.cs" t="Include" />
+            <e p="Members" t="Include">
+              <e p="MemberEntityTypeConfiguration.cs" t="Include" />
+              <e p="MemberRepository.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp2.2" t="Include">
+                  <e p="CompanyName.MyMeetings.Modules.Meetings.Infrastructure.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Outbox" t="Include">
+              <e p="OutboxAccessor.cs" t="Include" />
+              <e p="OutboxMessageEntityTypeConfiguration.cs" t="Include" />
+            </e>
+          </e>
           <e p="CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents" t="IncludeRecursive">
             <e p="bin" t="ExcludeRecursive" />
             <e p="CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj" t="IncludeRecursive" />

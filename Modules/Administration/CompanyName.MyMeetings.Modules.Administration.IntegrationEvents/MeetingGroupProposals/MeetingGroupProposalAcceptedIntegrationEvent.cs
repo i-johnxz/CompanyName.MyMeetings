@@ -1,9 +1,7 @@
-﻿using CompanyName.MyMeetings.BuildingBlocks.Infrastructure.EventBus;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
+using CompanyName.MyMeetings.BuildingBlocks.Infrastructure.EventBus;
 
-namespace CompanyName.MyMeetings.Modules.Administration.IntegrationEvents
+namespace CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.MeetingGroupProposals
 {
     public class MeetingGroupProposalAcceptedIntegrationEvent : IntegrationEvent
     {

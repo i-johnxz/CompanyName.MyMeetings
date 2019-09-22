@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using CompanyName.MyMeetings.BuildingBlocks.Infrastructure.EventBus;
-using CompanyName.MyMeetings.Modules.Administration.IntegrationEvents;
+using CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.MeetingGroupProposals;
 using MediatR;
 
 namespace CompanyName.MyMeetings.Modules.Administration.Application.MeetingGroupProposals.AcceptMeetingGroupProposal
