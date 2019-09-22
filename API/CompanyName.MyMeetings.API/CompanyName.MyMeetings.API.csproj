@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+        <UserSecretsId>2b9855d3-f073-44d2-aa45-b15e896794b9</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+        <PackageReference Include="FluentValidation" Version="8.4.0" />
+        <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="3.1.0" />
+        <PackageReference Include="IdentityServer4" Version="2.5.3" />
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Serilog.Formatting.Compact" Version="1.0.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+        <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.Application\CompanyName.MyMeetings.BuildingBlocks.Application.csproj" />
+      <ProjectReference Include="..\..\Modules\Administration\CompanyName.MyMeetings.Modules.Administration.Application\CompanyName.MyMeetings.Modules.Administration.Application.csproj" />
+      <ProjectReference Include="..\..\Modules\Meetings\CompanyName.MyMeetings.Modules.Meetings.Application\CompanyName.MyMeetings.Modules.Meetings.Application.csproj" />
+      <ProjectReference Include="..\..\Modules\Payments\CompanyName.MyMeetings.Modules.Payments.Application\CompanyName.MyMeetings.Modules.Payments.Application.csproj" />
+      <ProjectReference Include="..\..\Modules\UserAccess\CompanyName.MyMeetings.Modules.UserAccess.Application\CompanyName.MyMeetings.Modules.UserAccess.Application.csproj" />
+    </ItemGroup>
+
+</Project>

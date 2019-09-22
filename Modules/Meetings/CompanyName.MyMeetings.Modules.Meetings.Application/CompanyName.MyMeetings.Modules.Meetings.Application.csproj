@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.0.4" />
+        <PackageReference Include="FluentValidation" Version="8.4.0" />
+        <PackageReference Include="MediatR" Version="7.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+        <PackageReference Include="Quartz" Version="3.0.7" />
+        <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+        <PackageReference Include="Serilog.Formatting.Compact" Version="1.0.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+        <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.Application\CompanyName.MyMeetings.BuildingBlocks.Application.csproj" />
+      <ProjectReference Include="..\..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.EventBus\CompanyName.MyMeetings.BuildingBlocks.EventBus.csproj" />
+      <ProjectReference Include="..\..\..\BuildingBlocks\CompanyName.MyMeetings.BuildingBlocks.Infrastructure\CompanyName.MyMeetings.BuildingBlocks.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\Administration\CompanyName.MyMeetings.Modules.Administration.IntegrationEvents\CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.csproj" />
+      <ProjectReference Include="..\..\Payments\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents.csproj" />
+      <ProjectReference Include="..\..\UserAccess\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj" />
+      <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Meetings.Domain\CompanyName.MyMeetings.Modules.Meetings.Domain.csproj" />
+      <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Meetings.Infrastructure\CompanyName.MyMeetings.Modules.Meetings.Infrastructure.csproj" />
+      <ProjectReference Include="..\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj" />
+    </ItemGroup>
+</Project>
