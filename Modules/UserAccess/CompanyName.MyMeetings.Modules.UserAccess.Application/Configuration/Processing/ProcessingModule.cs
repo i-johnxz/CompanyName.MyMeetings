@@ -16,7 +16,7 @@ namespace CompanyName.MyMeetings.Modules.UserAccess.Application.Configuration.Pr
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<DomainEventsDispatcher>()
-                .As<IDomainEventsAccessor>()
+                .As<IDomainEventsDispatcher>()
                 .InstancePerLifetimeScope();
 
             builder.RegisterType<DomainEventsAccessor>()
@@ -37,7 +37,7 @@ namespace CompanyName.MyMeetings.Modules.UserAccess.Application.Configuration.Pr
 
             builder.RegisterGenericDecorator(
                 typeof(UnitOfWorkCommandHandlerWithResultDecorator<,>),
-                typeof(ICommandHandler<>));
+                typeof(ICommandHandler<,>));
 
             builder.RegisterGenericDecorator(
                 typeof(ValidationCommandHandlerDecorator<>),

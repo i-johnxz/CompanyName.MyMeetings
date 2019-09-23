@@ -6,6 +6,10 @@
         <UserSecretsId>2b9855d3-f073-44d2-aa45-b15e896794b9</UserSecretsId>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <DocumentationFile>F:\demo\test\CompanyName.MyMeetings\API\CompanyName.MyMeetings.API\CompanyName.MyMeetings.API.xml</DocumentationFile>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
         <PackageReference Include="FluentValidation" Version="8.4.0" />
@@ -25,6 +29,15 @@
       <ProjectReference Include="..\..\Modules\Meetings\CompanyName.MyMeetings.Modules.Meetings.Application\CompanyName.MyMeetings.Modules.Meetings.Application.csproj" />
       <ProjectReference Include="..\..\Modules\Payments\CompanyName.MyMeetings.Modules.Payments.Application\CompanyName.MyMeetings.Modules.Payments.Application.csproj" />
       <ProjectReference Include="..\..\Modules\UserAccess\CompanyName.MyMeetings.Modules.UserAccess.Application\CompanyName.MyMeetings.Modules.UserAccess.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="appsettings.Development.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
